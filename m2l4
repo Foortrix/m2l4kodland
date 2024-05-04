@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dependencia tecnológica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dependencia tecnológica</h1>
+    <h2>¿Qué es la dependencia tecnológica?</h2>
+    <p>La dependencia tecnológica es cuando una persona usa cada vez más dispositivos tecnológicos a tal punto de volverse una adicción.</p>
+    <h2>¿Cómo se puede solucionar este problema?</h2>
+    <p>Para evitar este problema, te brindamos una lista de cosas que puedes hacer para evitar la dependencia tecnológica</p>
+             <ul>
+                   <li>Organiza un horario sin objetos tecnológicos a tu alrededor para desconectarte.</li>
+                   <li>Limita tu tiempo de uso de la tecnología para evitar la adicción.</li>
+                   <li>Sal a tocar pasto y a conocer personas.</li>
+             </ul>
+     <img src="https://alotroladodeltelefonoblog.wordpress.com/wp-content/uploads/2017/08/mobile-3-icon.png" alt="Image 1">
+     <iframe src="https://www.meteoblue.com/en/weather/widget/daily?geoloc=detect&days=7&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=monochrome&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windspeed=1&windgust=0&winddirection=0&winddirection=1&uv=0&humidity=0&precipitation=0&precipitation=1&precipitationprobability=0&precipitationprobability=1&spot=0&spot=1&pressure=0&layout=light"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 378px; height: 420px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/week/index?utm_source=weather_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener">meteoblue</a></div>
+</body>
+</html>
+
+CSS
+
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #a5c2ff; /* El color del fondo de la página web */
+    color: #333333; /* El color del texto*/ 
+}
+h1 {
+    color: #333333; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Arial,  sans-serif; /* La familia tipográfica utilizada en la cabecera */
+}
+@keyframes color-change {
+    0% {
+      color: #333333;
+    }
+  
+    50% {
+      color: white;
+    }
+  
+    100% {
+      color: #333333;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
